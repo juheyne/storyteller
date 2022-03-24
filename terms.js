@@ -1,0 +1,25 @@
+const terms =
+[
+  "movie",
+  "pet",
+  "book",
+  "test",
+  "complaint",
+  "chore",
+  "dance",
+  "pet",
+  "friend",
+  "trip",
+  "gift",
+  "restaurant",
+  "drink",
+  "game",
+  "epiphany",
+  "home",
+  "sock",
+  "device",
+  "car or bicyle",
+  "trouble",
+  "hobby",
+  "vacation"
+];
