@@ -48,7 +48,7 @@ div.js_image::before {
 */
 .js_image {
   font-size: 3em;
-  display: flex;
+  display: flex; 
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
 }
