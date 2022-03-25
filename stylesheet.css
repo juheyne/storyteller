@@ -4,12 +4,12 @@ html, body {
   overflow-y: hidden;
   overflow-x: hidden;
 
-  background: linear-gradient(130deg, #5fbecf, #97cad1, #076785);
+  background: linear-gradient(130deg, #d5f8fd, #93eef8, #4bc7ec);
   background-size: 200% 200%;
 
-  -webkit-animation: Animation 15s ease infinite;
-  -moz-animation: Animation 15s ease infinite;
-  animation: Animation 15s ease infinite;
+  -webkit-animation: Animation 30s ease infinite;
+  -moz-animation: Animation 30s ease infinite;
+  animation: Animation 30s ease infinite;
 
 }
 
@@ -41,11 +41,11 @@ html, body {
   font-size:20px;
 }
 
-
+/*
 div.js_image::before {
   content:url(https://emoji.slack-edge.com/T27SFGS2W/jumpstart/21f5febab6a90b0f.png);
 }
-
+*/
 .js_image {
   font-size: 3em;
   display: flex;
@@ -72,7 +72,7 @@ div.js_image::before {
 }
 
 .box_text {
-  background: linear-gradient(130deg, #f5fcfd, #afb8b9);
+  background: linear-gradient(130deg, #f5fcfd, #e9e9e9);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -123,7 +123,7 @@ div.js_image::before {
 
 
 .button {
-  background: linear-gradient(130deg, #f5fcfd, #afb8b9);
+  background: linear-gradient(130deg, #f5fcfd, #e9e9e9);
   color: black;
   border: none;
   padding: 15px 32px;
