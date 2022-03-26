@@ -19,7 +19,15 @@ const terms =
   "sock",
   "device",
   "car or bicyle",
-  "trouble",
+  "tight spot",
   "hobby",
-  "vacation"
+  "vacation",
+  "game",
+  "meal",
+  "chore",
+  "piece of advice",
+  "decision",
+  "houseplant",
+  "furniture",
+  "day off"
 ];

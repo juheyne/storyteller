@@ -2,12 +2,16 @@
 <html>
 <head>
 <link rel="stylesheet" href="stylesheet.css">
-<div class="wrapper_welcome">
+</head>
+
+<body>
+<div class="wrapper_welcome" id="wrapper_welcome">
   <div class="js_image" id="js_image"></div>
   <div class="js_text" id="js_text">Welcome to Storyteller </div>
+  <div class="js_intro" id="js_intro">
+    Start drawing cards and tell a story about the displayed topic.
+  </div>
 </div>
-
-</head>
 
 
 <div class="wrapper" id="wrapper">
@@ -20,7 +24,7 @@
     </div>
   </div>
   <div class="bottom">
-    <button class="button" id="js_button" onclick="drawNewCards()">Draw new cards!</button>
+    <button class="button" id="js_button" onclick="drawNewCards()">Start drawing cards!</button>
   </div>
 </div>
 
