@@ -24,7 +24,26 @@ function randomizeTerm() {
   return terms[Math.floor(Math.random() * terms.length)];
 }
 
+
+
 function fillCards(superlative, term) {
+
+
+  // Get random font
+  var fonts = ['Times New Roman', 'Georgia', 'Garamond', 'Arial', 'Verdana', 'Helvetica', 'Courier New', 'Lucida Console', 'Monaco', 'Brush Script MT', 'Lucida Handwriting', 'Copperplate', 'Papyrus' ];
+  var random_font = fonts[Math.floor(Math.random() * fonts.length)];
+  document.getElementById('superlative').style.fontFamily = random_font;
+  var random_font = fonts[Math.floor(Math.random() * fonts.length)];
+  document.getElementById('term').style.fontFamily = random_font;
+
+
+
+
+
   document.getElementById("superlative").innerHTML = superlative;
   document.getElementById("term").innerHTML = term;
+
+  document.getElementById("wrapper").style.height = '60%';
+
+
 }
